@@ -1,0 +1,23 @@
+{
+    "name": "Default Purple",
+    "author": "BumbleGum Team",
+    "description": "Classic purple theme with traditional button colors and purple base",
+    "version": "1.0",
+    "created": "2025-08-13",
+    "preset": {
+        "green-fret-pressed": "#008000",
+        "red-fret-pressed": "#FF0000",
+        "yellow-fret-pressed": "#FFFF00",
+        "blue-fret-pressed": "#0000FF",
+        "orange-fret-pressed": "#FF4D00",
+        "green-fret-released": "#FF00FF",
+        "red-fret-released": "#FF00FF",
+        "yellow-fret-released": "#FF00FF",
+        "blue-fret-released": "#FF00FF",
+        "orange-fret-released": "#FF00FF",
+        "strum-up-active": "#008000",
+        "strum-down-active": "#008000",
+        "strum-up-released": "#FF00FF",
+        "strum-down-released": "#FF00FF"
+    }
+}

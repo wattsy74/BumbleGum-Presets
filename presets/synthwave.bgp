@@ -1,0 +1,23 @@
+{
+    "name": "Synthwave",
+    "author": "BumbleGum Team",
+    "description": "80s synthwave aesthetic with neon pinks, cyans, and retro vibes",
+    "version": "1.0",
+    "created": "2025-08-13",
+    "preset": {
+        "green-fret-pressed": "#FF0080",
+        "red-fret-pressed": "#FF4040",
+        "yellow-fret-pressed": "#FFFF80",
+        "blue-fret-pressed": "#00FFFF",
+        "orange-fret-pressed": "#FF8000",
+        "green-fret-released": "#800040",
+        "red-fret-released": "#802020",
+        "yellow-fret-released": "#808040",
+        "blue-fret-released": "#008080",
+        "orange-fret-released": "#804000",
+        "strum-up-active": "#FFFFFF",
+        "strum-down-active": "#FFFFFF",
+        "strum-up-released": "#606060",
+        "strum-down-released": "#606060"
+    }
+}

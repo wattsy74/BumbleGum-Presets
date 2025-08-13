@@ -1,0 +1,23 @@
+{
+    "name": "Default Burnt Orange",
+    "author": "BumbleGum Team",
+    "description": "Classic burnt orange theme with traditional button colors and orange base",
+    "version": "1.0",
+    "created": "2025-08-13",
+    "preset": {
+        "green-fret-pressed": "#008000",
+        "red-fret-pressed": "#FF0000",
+        "yellow-fret-pressed": "#FFFF00",
+        "blue-fret-pressed": "#0000FF",
+        "orange-fret-pressed": "#FF4D00",
+        "green-fret-released": "#FF1F00",
+        "red-fret-released": "#FF1F00",
+        "yellow-fret-released": "#FF1F00",
+        "blue-fret-released": "#FF1F00",
+        "orange-fret-released": "#FF1F00",
+        "strum-up-active": "#008000",
+        "strum-down-active": "#008000",
+        "strum-up-released": "#FF1F00",
+        "strum-down-released": "#FF1F00"
+    }
+}

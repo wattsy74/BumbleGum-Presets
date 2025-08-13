@@ -1,0 +1,23 @@
+{
+    "name": "Glacier",
+    "author": "BumbleGum Team",
+    "description": "Cool icy blues and whites with frosty arctic glacier colors",
+    "version": "1.0",
+    "created": "2025-08-13",
+    "preset": {
+        "green-fret-pressed": "#80FFC0",
+        "red-fret-pressed": "#C0E0FF",
+        "yellow-fret-pressed": "#E0FFFF",
+        "blue-fret-pressed": "#80C0FF",
+        "orange-fret-pressed": "#C0FFFF",
+        "green-fret-released": "#408060",
+        "red-fret-released": "#607080",
+        "yellow-fret-released": "#708080",
+        "blue-fret-released": "#406080",
+        "orange-fret-released": "#608080",
+        "strum-up-active": "#FFFFFF",
+        "strum-down-active": "#FFFFFF",
+        "strum-up-released": "#A0A0A0",
+        "strum-down-released": "#A0A0A0"
+    }
+}

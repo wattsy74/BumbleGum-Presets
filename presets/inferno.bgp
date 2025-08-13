@@ -1,0 +1,23 @@
+{
+    "name": "Inferno",
+    "author": "BumbleGum Team",
+    "description": "Blazing hot fire theme with intense reds, oranges, and yellows",
+    "version": "1.0",
+    "created": "2025-08-13",
+    "preset": {
+        "green-fret-pressed": "#FF5000",
+        "red-fret-pressed": "#FF0000",
+        "yellow-fret-pressed": "#FFC800",
+        "blue-fret-pressed": "#FF6400",
+        "orange-fret-pressed": "#FF8C00",
+        "green-fret-released": "#802800",
+        "red-fret-released": "#800000",
+        "yellow-fret-released": "#806400",
+        "blue-fret-released": "#803200",
+        "orange-fret-released": "#804600",
+        "strum-up-active": "#FFFFFF",
+        "strum-down-active": "#FFFFFF",
+        "strum-up-released": "#646464",
+        "strum-down-released": "#646464"
+    }
+}

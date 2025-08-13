@@ -1,0 +1,23 @@
+{
+    "name": "Why So Serious",
+    "author": "BumbleGum Team",
+    "description": "Chaotic and colorful Joker-inspired theme with wild contrasting colors",
+    "version": "1.0",
+    "created": "2025-08-13",
+    "preset": {
+        "green-fret-pressed": "#00ff22",
+        "red-fret-pressed": "#bd001f",
+        "yellow-fret-pressed": "#fbff00",
+        "blue-fret-pressed": "#0022ff",
+        "orange-fret-pressed": "#d64400",
+        "green-fret-released": "#04fc00",
+        "red-fret-released": "#08692f",
+        "yellow-fret-released": "#024536",
+        "blue-fret-released": "#533369",
+        "orange-fret-released": "#970afc",
+        "strum-up-active": "#007874",
+        "strum-down-active": "#007874",
+        "strum-up-released": "#09ff00",
+        "strum-down-released": "#9626ff"
+    }
+}

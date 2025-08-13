@@ -1,0 +1,23 @@
+{
+    "name": "GRYBO",
+    "author": "BumbleGum Team",
+    "description": "Classic Guitar Hero color scheme with traditional button colors",
+    "version": "1.0",
+    "created": "2025-08-13",
+    "preset": {
+        "green-fret-pressed": "#00FF00",
+        "red-fret-pressed": "#FF0000",
+        "yellow-fret-pressed": "#FFFF00",
+        "blue-fret-pressed": "#0000FF",
+        "orange-fret-pressed": "#FF4D00",
+        "green-fret-released": "#003D00",
+        "red-fret-released": "#8C0009",
+        "yellow-fret-released": "#696B00",
+        "blue-fret-released": "#000091",
+        "orange-fret-released": "#521C00",
+        "strum-up-active": "#FFFFFF",
+        "strum-down-active": "#FFFFFF",
+        "strum-up-released": "#454545",
+        "strum-down-released": "#454545"
+    }
+}

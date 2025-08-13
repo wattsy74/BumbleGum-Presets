@@ -1,0 +1,23 @@
+{
+    "name": "Default Green",
+    "author": "BumbleGum Team",
+    "description": "Classic green theme with traditional button colors and green base",
+    "version": "1.0",
+    "created": "2025-08-13",
+    "preset": {
+        "green-fret-pressed": "#008000",
+        "red-fret-pressed": "#FF0000",
+        "yellow-fret-pressed": "#FFFF00",
+        "blue-fret-pressed": "#0000FF",
+        "orange-fret-pressed": "#FF4D00",
+        "green-fret-released": "#008000",
+        "red-fret-released": "#008000",
+        "yellow-fret-released": "#008000",
+        "blue-fret-released": "#008000",
+        "orange-fret-released": "#008000",
+        "strum-up-active": "#800080",
+        "strum-down-active": "#800080",
+        "strum-up-released": "#008000",
+        "strum-down-released": "#008000"
+    }
+}

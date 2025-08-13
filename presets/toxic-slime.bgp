@@ -1,0 +1,23 @@
+{
+    "name": "Toxic Slime",
+    "author": "BumbleGum Team",
+    "description": "Radioactive green slime theme with bright toxic greens and yellows",
+    "version": "1.0",
+    "created": "2025-08-13",
+    "preset": {
+        "green-fret-pressed": "#00FF00",
+        "red-fret-pressed": "#80FF00",
+        "yellow-fret-pressed": "#C0FF40",
+        "blue-fret-pressed": "#40FF80",
+        "orange-fret-pressed": "#80FF40",
+        "green-fret-released": "#008000",
+        "red-fret-released": "#408000",
+        "yellow-fret-released": "#608020",
+        "blue-fret-released": "#208040",
+        "orange-fret-released": "#408020",
+        "strum-up-active": "#FFFFFF",
+        "strum-down-active": "#FFFFFF",
+        "strum-up-released": "#507850",
+        "strum-down-released": "#507850"
+    }
+}
