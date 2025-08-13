@@ -1,0 +1,23 @@
+﻿{
+    "name": "Neon Purple",
+    "author": "BumbleGum Team",
+    "description": "Vibrant purple and pink neon colors with bright accents", 
+    "version": "1.0",
+    "created": "2025-08-13",
+    "preset": {
+        "green-fret-pressed": "#00FF00",
+        "red-fret-pressed": "#FF0000",
+        "yellow-fret-pressed": "#FFFF00",
+        "blue-fret-pressed": "#0000FF", 
+        "orange-fret-pressed": "#FF4D00",
+        "green-fret-released": "#8000FF",
+        "red-fret-released": "#FF00FF",
+        "yellow-fret-released": "#C000FF",
+        "blue-fret-released": "#A000FF",
+        "orange-fret-released": "#FF00C0",
+        "strum-up-active": "#FFFFFF",
+        "strum-down-active": "#FFFFFF",
+        "strum-up-released": "#6000AA",
+        "strum-down-released": "#6000AA"
+    }
+}

@@ -1,30 +1,31 @@
 ﻿# BumbleGum LED Presets - Community Sharing
 
-Welcome to the BumbleGum Guitar Controller LED preset sharing community! This repository contains user-created lighting effects and color patterns.
+Welcome to the BumbleGum Guitar Controller LED preset sharing community! This repository contains user-created color schemes and lighting configurations.
 
 ##  What are LED Presets?
 
 LED presets are configuration files that contain:
-- LED color patterns and effects
-- Animation speeds and intensities
-- Custom lighting themes
-- Color combinations and transitions
+- Individual fret button colors (pressed/released states)
+- Strum bar colors (active/released states)  
+- Color themes and schemes
+- Custom button color combinations
 
 ##  Repository Structure
 
 `
 presets/
- blue-flame.bgp          # Blue flame effect
- rainbow-pulse.bgp       # Rainbow pulsing pattern
- red-strobe.bgp          # Red strobe lighting
- your-preset.bgp         # Your awesome creation!
+ electric-blue.bgp       # Bright blue theme
+ fire-red.bgp           # Hot red and orange theme
+ neon-purple.bgp        # Vibrant purple neon
+ ocean-depths.bgp       # Deep blue underwater theme
+ your-preset.bgp        # Your awesome creation!
 `
 
 ##  How to Use LED Presets
 
 1. **Download**: Browse the presets/ folder and download .bgp files
-2. **Import**: Open BumbleGum Configurator  File  Import LED Preset
-3. **Apply**: Select the preset and watch your controller light up!
+2. **Import**: Open BumbleGum Configurator  File  Import Preset
+3. **Apply**: Select the preset and apply to your controller
 
 ##  How to Share Your LED Presets
 
@@ -38,7 +39,7 @@ presets/
 1. Navigate to the presets/ folder
 2. Click "Add file"  "Upload files"
 3. Upload your .bgp file with a descriptive name
-4. Add commit message describing your LED effect
+4. Add commit message describing your color scheme
 
 ##  LED Preset File Format
 
@@ -46,44 +47,57 @@ Preset files (.bgp) are JSON-based with this structure:
 
 `json
 {
-  "name": "Blue Flame Effect",
+  "name": "Your Theme Name",
+  "author": "Your Name",
+  "description": "Description of your color scheme",
   "version": "1.0",
-  "author": "YourUsername",
-  "description": "Mesmerizing blue flame pattern with flickering effects",
   "created": "2025-08-13",
-  "leds": {
-    "pattern": "flame",
-    "colors": ["#0066ff", "#003399", "#001166", "#000033"],
-    "speed": 50,
-    "intensity": 80,
-    "direction": "up",
-    "flicker": true
-  },
-  "animation": {
-    "type": "continuous",
-    "fade_in": 500,
-    "fade_out": 300,
-    "loop": true
+  "preset": {
+    "green-fret-pressed": "#00FF00",
+    "red-fret-pressed": "#FF0000",
+    "yellow-fret-pressed": "#FFFF00",
+    "blue-fret-pressed": "#0000FF",
+    "orange-fret-pressed": "#FF4D00",
+    "green-fret-released": "#008000",
+    "red-fret-released": "#800000",
+    "yellow-fret-released": "#808000",
+    "blue-fret-released": "#000080",
+    "orange-fret-released": "#804000",
+    "strum-up-active": "#FFFFFF",
+    "strum-down-active": "#FFFFFF",
+    "strum-up-released": "#808080",
+    "strum-down-released": "#808080"
   }
 }
 `
 
-##  Popular LED Effects
+##  Button States Explained
 
-- **Flame Effects**: Flickering fire-like patterns
-- **Pulse Patterns**: Breathing/pulsing lights
-- **Strobe Effects**: Fast flashing patterns
-- **Rainbow Cycles**: Color-changing effects
-- **Gradient Flows**: Smooth color transitions
-- **Static Themes**: Solid color combinations
+### Fret Buttons
+- **pressed**: Color when button is held down
+- **released**: Color when button is not pressed
 
-##  Featured Presets
+### Strum Bar  
+- **active**: Color when strumming/playing
+- **released**: Color when not strumming
 
-Check out these community favorites:
+##  Color Format
 
-- lue-flame.bgp - Mesmerizing blue fire effect
-- ainbow-pulse.bgp - Smooth rainbow breathing
-- ed-strobe.bgp - High-energy red strobing
+Use hex colors: #RRGGBB
+- Red: #FF0000
+- Green: #00FF00
+- Blue: #0000FF
+- White: #FFFFFF
+- Black/Off: #000000
+
+##  Popular Color Themes
+
+- **Electric Blue**: Bright blue backgrounds with white highlights
+- **Fire Red**: Hot reds and oranges for intense themes
+- **Neon Purple**: Vibrant purple and pink combinations
+- **Ocean Depths**: Deep blues and teals for calming themes
+- **Synthwave**: Pink, purple, and cyan retro colors
+- **Toxic Slime**: Bright greens for alien themes
 
 ##  BumbleGum Configurator
 
@@ -93,10 +107,10 @@ Download the official configurator app:
 
 ##  Contributing
 
-1. **Quality**: Test your LED presets before sharing
-2. **Description**: Provide clear descriptions of the lighting effect
-3. **Naming**: Use descriptive file names (e.g., purple-galaxy-swirl.bgp)
-4. **Performance**: Ensure effects don't cause lag or flickering
+1. **Quality**: Test your presets before sharing
+2. **Description**: Provide clear descriptions of the color theme
+3. **Naming**: Use descriptive file names (e.g., sunset-orange.bgp)
+4. **Colors**: Ensure good contrast between pressed/released states
 
 ##  Support
 

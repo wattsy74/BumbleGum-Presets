@@ -1,0 +1,23 @@
+﻿{
+    "name": "Ocean Depths",
+    "author": "BumbleGum Team",
+    "description": "Deep blue and teal underwater theme with aqua highlights",
+    "version": "1.0", 
+    "created": "2025-08-13",
+    "preset": {
+        "green-fret-pressed": "#00FF00",
+        "red-fret-pressed": "#FF0000",
+        "yellow-fret-pressed": "#FFFF00",
+        "blue-fret-pressed": "#0000FF",
+        "orange-fret-pressed": "#FF4D00",
+        "green-fret-released": "#006666",
+        "red-fret-released": "#004080",
+        "yellow-fret-released": "#0080AA",
+        "blue-fret-released": "#002060",
+        "orange-fret-released": "#008080",
+        "strum-up-active": "#00FFFF",
+        "strum-down-active": "#00FFFF",
+        "strum-up-released": "#003040",
+        "strum-down-released": "#003040"
+    }
+}
