@@ -1,0 +1,26 @@
+﻿{
+  "name": "Rainbow Pulse",
+  "version": "1.0",
+  "author": "BumbleGum Team",
+  "description": "Smooth rainbow breathing effect that cycles through all colors - relaxing and mesmerizing",
+  "created": "2025-08-13",
+  "leds": {
+    "pattern": "pulse",
+    "colors": ["#ff0000", "#ff8000", "#ffff00", "#80ff00", "#00ff00", "#00ff80", "#00ffff", "#0080ff", "#0000ff", "#8000ff", "#ff00ff", "#ff0080"],
+    "speed": 30,
+    "intensity": 70,
+    "smoothness": 90,
+    "sync_all": true
+  },
+  "animation": {
+    "type": "breathing",
+    "fade_in": 2000,
+    "fade_out": 2000,
+    "loop": true,
+    "color_cycle_speed": 15
+  },
+  "compatibility": {
+    "min_version": "3.0",
+    "tested_controllers": ["UniStrum", "BumbleBee", "Aerosmith", "Metallica", "Warriors of Rock"]
+  }
+}
