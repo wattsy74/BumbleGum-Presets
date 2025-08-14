@@ -1,0 +1,23 @@
+{
+  "name": "BumbleGum Yellow",
+  "author": "BumbleGum Team",
+  "description": "BumbleGum yellow released buttons with standard GRYBO pressed buttons",
+  "version": "1.0",
+  "created": "2025-08-14",
+  "preset": {
+    "green-fret-pressed": "rgb(0, 128, 0)",
+    "red-fret-pressed": "rgb(255, 0, 0)",
+    "yellow-fret-pressed": "rgb(255, 255, 0)",
+    "blue-fret-pressed": "rgb(0, 0, 255)",
+    "orange-fret-pressed": "rgb(255, 77, 0)",
+    "green-fret-released": "rgb(255, 191, 0)",
+    "red-fret-released": "rgb(255, 191, 0)",
+    "yellow-fret-released": "rgb(255, 191, 0)",
+    "blue-fret-released": "rgb(255, 191, 0)",
+    "orange-fret-released": "rgb(255, 191, 0)",
+    "strum-up-active": "rgb(0, 0, 255)",
+    "strum-down-active": "rgb(0, 0, 255)",
+    "strum-up-released": "rgb(255, 191, 0)",
+    "strum-down-released": "rgb(255, 191, 0)"
+  }
+}
