@@ -1,0 +1,23 @@
+{
+  "name": "I Am Batman",
+  "author": "BumbleGum Team",
+  "description": "Colours chosen to suit the Batman Guitar",
+  "version": "1.0",
+  "created": "2025-08-22",
+  "preset": {
+    "green-fret-pressed": "rgb(0, 255, 0)",
+    "red-fret-pressed": "rgb(255, 0, 0)",
+    "yellow-fret-pressed": "rgb(255, 255, 0)",
+    "blue-fret-pressed": "rgb(0, 0, 255)",
+    "orange-fret-pressed": "rgb(255, 77, 0)",
+    "green-fret-released": "rgb(255, 120, 3)",
+    "red-fret-released": "rgb(255, 120, 3)",
+    "yellow-fret-released": "rgb(255, 120, 3)",
+    "blue-fret-released": "rgb(255, 120, 3)",
+    "orange-fret-released": "rgb(255, 120, 3)",
+    "strum-up-active": "rgb(0, 0, 255)",
+    "strum-down-active": "rgb(0, 0, 255)",
+    "strum-up-released": "rgb(255, 120, 3)",
+    "strum-down-released": "rgb(255, 120, 3)"
+  }
+}
